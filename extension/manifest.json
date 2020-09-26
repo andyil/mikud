@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "מיקוד",
+  "description": "תוסף לאתר הדואר: חיפוש גולמי של כתובת לפי מיקוד",
+  "version": "0.2",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://mypost.israelpost.co.il/%d7%a9%d7%99%d7%a8%d7%95%d7%aa%d7%99%d7%9d/%d7%90%d7%99%d7%aa%d7%95%d7%a8-%d7%9b%d7%aa%d7%95%d7%91%d7%aa-%d7%a2%d7%9c-%d7%a4%d7%99-%d7%9e%d7%99%d7%a7%d7%95%d7%93/"
+      ],
+      "js": [
+        "jquery-2.1.1.min.js",
+        "reverse-zip-lookup.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "mikud-16.png",
+    "48": "mikud-48.png",
+    "128": "mikud-128.png"
+  }
+}
